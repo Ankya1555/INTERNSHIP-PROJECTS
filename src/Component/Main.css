@@ -1,0 +1,178 @@
+/* Main.css */
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  
+  .Bar {
+    background-color: #8b95cb;
+  }
+  
+  .Tool {
+    display: flex;
+    justify-content: space-between;
+  }
+  .header_logo_area{
+    width: 100%;
+    height: 100px;
+    background-color: floralwhite;
+    padding: 10px;
+        
+  }
+  .gallery {
+  margin: 0 auto;
+  padding: 20px;
+  max-width: 1200px;
+}
+
+.gallery-item {
+  padding: 10px;
+}
+
+.gallery-item img {
+  width: 100%;          /* Set the width to 100% of the container */
+  height: 250px;        /* Set a fixed height for all images */
+  object-fit: cover;    /* Ensures the image covers the container while maintaining aspect ratio */
+  border-radius: 8px;   /* Optional: adds rounded corners */
+}
+
+.slick-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slick-dots li button:before {
+  color: #000; /* Change dot color */
+}
+.gallery {
+  margin: 0 auto;
+  padding: 20px;
+  max-width: 1200px;
+}
+
+.gallery-item {
+  padding: 10px;
+  box-sizing: border-box; /* Ensures padding does not affect width */
+}
+
+.gallery-item img {
+  width: 100%;
+  height: 250px; /* Set a fixed height */
+  object-fit: cover; /* Maintain aspect ratio */
+  border-radius: 8px;
+}
+
+.slick-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slick-dots li button:before {
+  color: #000; /* Change dot color */
+}
+
+/* Responsive Design */
+@media (max-width: 1200px) {
+  .slick-slide {
+    /* Adjust slide padding or margins for larger screens if needed */
+  }
+}
+
+@media (max-width: 992px) {
+  .slick-slide {
+    /* Adjust slide padding or margins for medium screens */
+    /* Example: Reduce the number of slides shown */
+  }
+}
+
+@media (max-width: 768px) {
+  .gallery-item img {
+    height: 200px; /* Adjust height for smaller screens */
+  }
+
+  .slick-slide {
+    /* Adjust slide padding or margins for smaller screens */
+  }
+}
+
+@media (max-width: 576px) {
+  .gallery-item img {
+    height: 150px; /* Further adjust height for very small screens */
+  }
+
+  .slick-slide {
+    /* Adjust slide padding or margins for very small screens */
+  }
+}
+.news-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.news-grid {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.news-slider {
+  width: 50%; /* Adjust based on your layout preference */
+}
+
+.news-image {
+  width: 100%;
+  height: 300px; /* Set a fixed height for consistency */
+  object-fit: cover; /* Ensure the image covers the area without distortion */
+  border-radius: 8px;
+}
+
+.news-description {
+  width: 50%; /* Adjust based on your layout preference */
+}
+
+.slider-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.news-grid {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 20px; /* Space between items */
+}
+
+.news-slider {
+  flex: 1;
+}
+
+.news-description {
+  flex: 1;
+}
+
+.layout-left {
+  flex-direction: row;
+}
+
+.layout-right {
+  flex-direction: row-reverse;
+}
+.gallery-grid {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.gallery-image {
+  width: 100%;
+  height: 250px;
+  border-radius: 8px;
+  object-fit: cover;
+}
